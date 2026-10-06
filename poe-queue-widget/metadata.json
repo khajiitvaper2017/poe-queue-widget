@@ -1,0 +1,15 @@
+{
+    "KPlugin": {
+        "Id": "com.vive.poequeue",
+        "Name": "POE Queue Schedule",
+        "Name[uk]": "Графік черг POE",
+        "Description": "Poltava region power outage schedule",
+        "Description[uk]": "Графік відключень для Полтавської області",
+        "Version": "1.0",
+        "License": "MIT",
+        "Icon": "view-calendar-day",
+        "Website": "https://www.poe.pl.ua/"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "KPackageStructure": "Plasma/Applet"
+}

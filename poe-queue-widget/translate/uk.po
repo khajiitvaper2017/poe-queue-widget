@@ -1,0 +1,70 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: com.vive.poequeue\n"
+"Language: uk\n"
+"Language-Team: Ukrainian\n"
+"MIME-Version: 1.0\n"
+"PO-Revision-Date: 2026-10-06 00:00+0300\n"
+"Last-Translator: POE Queue Schedule contributors\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "Could not fetch schedule (%1)"
+msgstr "Не вдалося отримати графік (%1)"
+
+msgid "<1 min"
+msgstr "<1 хв"
+
+msgid "%1 min"
+msgstr "%1 хв"
+
+msgid "%1 h %2 min"
+msgstr "%1 год %2 хв"
+
+msgid "Schedule not found"
+msgstr "Графік не знайдено"
+
+msgid "Network error"
+msgstr "Помилка мережі"
+
+msgid "Updating…"
+msgstr "Оновлення…"
+
+msgid "No upcoming outage"
+msgstr "Немає наступного відключення"
+
+msgid "Power outage approaching"
+msgstr "Наближається відключення"
+
+msgid "Queue %1: outage at %2 — approximately %3 minutes remaining."
+msgstr "Черга %1: відключення о %2 — залишилось приблизно %3 хв."
+
+msgid "Outage schedule"
+msgstr "Графік відключень"
+
+msgid "Updated at %1"
+msgstr "Оновлено о %1"
+
+msgid "Outage"
+msgstr "Відключення"
+
+msgid "Possible outage"
+msgstr "Можливе відключення"
+
+msgid "Power available"
+msgstr "Світло є"
+
+msgid "No data"
+msgstr "Немає даних"
+
+msgid "Queues"
+msgstr "Черги"
+
+msgid "Select one or more queues."
+msgstr "Оберіть одну або кілька черг."
+
+msgid "Priority queue"
+msgstr "Пріоритетна черга"
+
+msgid "The compact view shows the time until the next outage for this queue."
+msgstr "У компактному вигляді показується час до наступного відключення цієї черги."
