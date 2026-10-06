@@ -4,6 +4,8 @@ It fetches the official schedule immediately and every 30 minutes; the refresh b
 
 The UI is available in English and Ukrainian; it follows the Plasma/KDE language setting.
 
+![POE Queue Schedule widget](screenshots/poe-queue-widget.png)
+
 Install on Plasma 6:
 
 ```sh
