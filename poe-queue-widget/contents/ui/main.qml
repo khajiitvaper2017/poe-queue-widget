@@ -104,6 +104,17 @@ PlasmoidItem {
         return schedules.filter(function(item) { return selected.indexOf(item.queue) !== -1 })
     }
 
+    function visibleIntervals(item) {
+        var tick = clockTick
+        var now = new Date()
+        if (item.date.toDateString() !== now.toDateString())
+            return item.date > now ? item.intervals : []
+        var current = now.getHours() * 60 + now.getMinutes()
+        return item.intervals.filter(function(interval) {
+            return (interval.end === "00:00" ? 1440 : minutes(interval.end)) > current
+        })
+    }
+
     function updateConfiguration(parsed) {
         var available = []
         parsed.forEach(function(item) { if (available.indexOf(item.queue) === -1) available.push(item.queue) })
@@ -307,7 +318,7 @@ PlasmoidItem {
                         Layout.fillWidth: true
                         spacing: 3
                         Repeater {
-                            model: modelData.intervals
+                            model: root.visibleIntervals(modelData)
                             delegate: Rectangle {
                                 required property var modelData
                                 width: intervalLabel.implicitWidth + 12
